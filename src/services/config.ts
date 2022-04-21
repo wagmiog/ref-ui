@@ -97,25 +97,25 @@ export default function getConfig(env: string = process.env.NEAR_ENV) {
         walletUrl: 'https://wallet.testnet.near.org',
         helperUrl: 'https://helper.testnet.near.org',
         explorerUrl: 'https://explorer.testnet.near.org',
-        indexerUrl: 'https://dev-indexer.ref-finance.com',
-        sodakiApiUrl: 'https://api.stats.ref.finance/api',
+        indexerUrl: '',
+        sodakiApiUrl: '',
         blackList: process.env.FARM_BLACK_LIST || ['1371#3'],
         REF_FI_CONTRACT_ID:
-          process.env.REF_FI_CONTRACT_ID || 'exchange.ref-dev.testnet',
+          process.env.REF_FI_CONTRACT_ID || 'dev-1650390132481-41920561029904', //general contract
         WRAP_NEAR_CONTRACT_ID:
           process.env.WRAP_NEAR_CONTRACT_ID || 'wrap.testnet',
         REF_ADBOARD_CONTRACT_ID: 'ref-adboard.near',
         REF_FARM_CONTRACT_ID:
-          process.env.REF_FARM_CONTRACT_ID || 'farm110.ref-dev.testnet',
-        REF_TOKEN_ID: 'ref.fakes.testnet',
-        XREF_TOKEN_ID: 'xref.ref-dev.testnet',
+          process.env.REF_FARM_CONTRACT_ID || 'dev-1650430705787-54209300824311', //farm
+        REF_TOKEN_ID: 'dev-1650390946454-44544240969912', // ref token
+        XREF_TOKEN_ID: 'dev-1650391932449-10008717549591', // ref token
         REF_AIRDROP_CONTRACT_ID: 'locker002.ref-dev.testnet',
         TOP_POOLS_TOKEN_REFRESH_INTERVAL:
           process.env.POOL_TOKEN_REFRESH_INTERVAL || 60,
         POOL_TOKEN_REFRESH_INTERVAL:
           process.env.POOL_TOKEN_REFRESH_INTERVAL || 20,
-        STABLE_POOL_ID: process.env.STABLE_POOL_ID || 79,
-        POOLS_BLACK_LIST: process.env.POOLS_BLACK_LIST || [506],
+        STABLE_POOL_ID: process.env.STABLE_POOL_ID || 3,
+        POOLS_BLACK_LIST: process.env.POOLS_BLACK_LIST || [2],
         STABLE_TOKEN_IDS: [
           'usdt.fakes.testnet',
           'usdc.fakes.testnet',
