@@ -393,8 +393,8 @@ function Xref() {
   };
   return (
     <div
-      className={`relative p-4 cursor-pointer hover:opacity-100 ${
-        location.pathname == '/xref' ? 'opacity-100' : 'opacity-60'
+      className={`text-gray-400 relative p-4 cursor-pointer hover:opacity-100 ${
+        location.pathname == '/xref' ? 'text-primary' : 'opacity-60'
       }`}
       onClick={goXrefPage}
       onMouseEnter={() => {
