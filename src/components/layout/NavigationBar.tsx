@@ -55,8 +55,6 @@ import { ftGetTokensMetadata } from '../../services/ft-contract';
 import { useTokenBalances } from '../../state/token';
 import { toReadableNumber } from '../../utils/numbers';
 import { FarmDot } from '../icon/FarmStamp';
-import { ButtonPrimary } from '~PNGcomponents/Button';
-import { ButtonPrimary } from '../../PNGcomponents/Button'
 
 const config = getConfig();
 
@@ -108,7 +106,7 @@ function Anchor({
     >
       <h2
         className={`link text-lg font-bold p-4 cursor-pointer relative z-10 ${className} ${
-          isSelected ? 'text-primary' : 'text-gray-400'
+          isSelected ? 'text-primary' : 'text-white'
         }`}
       >
         <FormattedMessage id={name} defaultMessage={name} />
@@ -118,7 +116,7 @@ function Anchor({
           </span>
         ) : null}
       </h2>
-      <GreenArrow hover={hover}></GreenArrow>
+      {/* <GreenArrow hover={hover}></GreenArrow> */}
     </Link>
   );
 }
@@ -241,13 +239,12 @@ function AccountEntry({
                 type="button"
                 style={{color: '#FFC800'}}
               >
-                {/* <span className="ml-1 text-xs">
+                <span className="ml-1 text-xs">
                   <FormattedMessage
                     id="connect_to_near"
                     defaultMessage="Connect to NEAR"
                   />
-                </span> */}
-                Connect wallet
+                </span>
               </button>
               // <ButtonPrimary
               //   onClick={(e) => {
@@ -408,7 +405,7 @@ function Xref() {
       }}
     >
       <XrefIcon className="cursor-pointer"></XrefIcon>
-      <GreenArrow hover={hover}></GreenArrow>
+      {/* <GreenArrow hover={hover}></GreenArrow> */}
     </div>
   );
 }
@@ -421,10 +418,10 @@ function GreenArrow(props: any) {
       }`}
     >
       <span>
-        <GreenArrowIcon></GreenArrowIcon>
+        {/* <GreenArrowIcon></GreenArrowIcon> */}
       </span>
       <span style={{ transform: 'rotateY(180deg)' }}>
-        <GreenArrowIcon></GreenArrowIcon>
+        {/* <GreenArrowIcon></GreenArrowIcon> */}
       </span>
     </div>
   );
@@ -489,7 +486,7 @@ function PoolsMenu() {
               <FiChevronDown />
             </label>
           </h2>
-          <GreenArrow hover={hover}></GreenArrow>
+          {/* <GreenArrow hover={hover}></GreenArrow> */}
         </div>
       </div>
       <div
