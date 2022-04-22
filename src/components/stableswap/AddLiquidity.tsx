@@ -415,7 +415,6 @@ export default function AddLiquidityComponent(props: {
     <>
       <Card
         padding="py-6"
-        bgcolor="bg-cardBg"
         className="text-white w-full outline-none "
       >
         <div className="text-xl pb-4 px-8">

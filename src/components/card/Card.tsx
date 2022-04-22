@@ -19,6 +19,7 @@ export function Card(
       } ${padding ? padding : 'p-6'} ${width ? width : 'w-1/4'} ${
         props.className
       } md:rounded-lg xs:rounded-lg`}
+      style={{backgroundColor: '#111111'}}
     >
       {props.children}
     </div>

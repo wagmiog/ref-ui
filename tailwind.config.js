@@ -74,10 +74,10 @@ module.exports = {
 
     extend: {
       backgroundImage: (theme) => ({
-        farmSearch: 'linear-gradient(106.25deg, #00FFD1 6.88%, #00BA98 81.93%)',
+        farmSearch: 'linear-gradient(106.25deg, #FFC800 6.88%, #FFC800 81.93%)',
         stableTab: 'linear-gradient(360deg, #FFC800 0%, #008B72 100%)',
-        primaryGradient: 'linear-gradient(180deg, #FFC800 0%, #008B72 100%)',
-        buttonGradientBg: 'linear-gradient(180deg, #FFC800 0%, #008B72 100%)',
+        primaryGradient: 'linear-gradient(180deg, #FFC800 0%, #FFC800 100%)',
+        buttonGradientBg: 'linear-gradient(180deg, #FFC800 0%, #FFC800 100%)',
         darkGradientBg: 'linear-gradient(180deg, #1D2932 0%, #001320 100%)',
         darkGradientHoverBg:
           'linear-gradient(180deg, #24313A 0%, #14212B 100%)',
