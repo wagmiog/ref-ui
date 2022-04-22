@@ -525,7 +525,7 @@ const ExternalLinkIcon = (props: any) => {
 //           y2="58"
 //           gradientUnits="userSpaceOnUse"
 //         >
-//           <stop stopColor="#00C6A2" />
+//           <stop stopColor="#FFC800" />
 //           <stop offset="1" stopColor="#008B72" />
 //         </linearGradient>
 //       </defs>

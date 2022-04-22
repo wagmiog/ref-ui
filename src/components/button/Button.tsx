@@ -9,6 +9,7 @@ import {
 import { FormattedMessage } from 'react-intl';
 import { BeatLoading } from '../../components/layout/Loading';
 import { WalletSelectorModal } from '../layout/WalletSelector';
+import { ButtonPrimary } from '../../PNGcomponents/Button'
 
 export function BorderlessButton(
   props: HTMLAttributes<HTMLButtonElement> & { disabled?: boolean }
@@ -124,39 +125,16 @@ export function ConnectToNearBtn() {
 
   return (
     <>
-      <div
-        className={`flex items-center cursor-pointer justify-center rounded-full py-2 text-base ${
-          buttonLoading ? 'opacity-40' : ''
-        }`}
-        style={{
-          background: 'linear-gradient(180deg, #00C6A2 0%, #008B72 100%)',
-          color: '#fff',
-        }}
-        onClick={(e) => {
+        <ButtonPrimary 
+          onClick={(e) => {
           e.preventDefault();
           e.stopPropagation();
           setButtonLoading(true);
           setShowWalletSelector(true);
         }}
-      >
-        {!buttonLoading && (
-          <div className="mr-3.5">
-            <UnLoginIcon />
-          </div>
-        )}
-
-        <button>
-          <ButtonTextWrapper
-            loading={buttonLoading}
-            Text={() => (
-              <FormattedMessage
-                id="connect_to_near"
-                defaultMessage="Connect to NEAR"
-              />
-            )}
-          />
-        </button>
-      </div>
+        >
+          Connect Wallet
+        </ButtonPrimary>
       <WalletSelectorModal
         isOpen={showWalletSelector}
         onRequestClose={() => {
@@ -275,7 +253,7 @@ export function GreenLButton(
     <button
       disabled={disabled}
       style={{
-        background: 'linear-gradient(180deg, #00C6A2 0%, #008B72 100%)',
+        background: 'linear-gradient(180deg, #FFC800 0%, #008B72 100%)',
       }}
       className={`w-full rounded text-lg text-white font-semibold border-0 px-5 py-2 focus:outline-none ${className} ${
         disabled ? 'opacity-40 cursor-not-allowed' : ''

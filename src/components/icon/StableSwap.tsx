@@ -16,7 +16,7 @@ const StableSwapLogo = (props: any) => {
           cy="55"
           rx="58"
           ry="44"
-          stroke="#00C6A2"
+          stroke="#FFC800"
           strokeWidth="2"
         />
       </g>

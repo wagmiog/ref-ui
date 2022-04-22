@@ -20,7 +20,7 @@ export function Loading() {
           ng-attr-fill="{{config.color}}"
           stroke="none"
           d="M10 50A40 40 0 0 0 90 50A40 42 0 0 1 10 50"
-          fill="#10B981"
+          fill="#FFC800"
         ></path>{' '}
       </svg>
     </div>
@@ -59,7 +59,7 @@ export function ChartLoading() {
           ng-attr-fill="{{config.color}}"
           stroke="none"
           d="M10 50A40 40 0 0 0 90 50A40 42 0 0 1 10 50"
-          fill="#10B981"
+          fill="#FFC800"
         ></path>{' '}
       </svg>
     </div>
@@ -77,7 +77,7 @@ export const RefreshTrangle = () => {
     >
       <path
         d="M4.5 2.13398C5.16667 2.51888 5.16667 3.48113 4.5 3.86603L1.5 5.59808C0.833333 5.98298 1.92632e-07 5.50185 2.26281e-07 4.73205L3.77702e-07 1.26795C4.11351e-07 0.498148 0.833334 0.0170236 1.5 0.401924L4.5 2.13398Z"
-        fill="#00C6A2"
+        fill="#FFC800"
       />
     </svg>
   );

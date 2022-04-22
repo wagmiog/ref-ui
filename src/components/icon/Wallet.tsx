@@ -117,7 +117,7 @@ export const RefWalletLarge = () => {
         cx="31"
         cy="31.4118"
         r="30.5"
-        stroke="#00C6A2"
+        stroke="#FFC800"
         strokeOpacity="0.3"
       />
       <path
@@ -126,7 +126,7 @@ export const RefWalletLarge = () => {
       />
       <path
         d="M45.3994 17.0117L39.2903 17.0117L45.3994 23.1208L45.3994 17.0117Z"
-        fill="#00C6A2"
+        fill="#FFC800"
       />
       <path
         fillRule="evenodd"

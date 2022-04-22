@@ -83,7 +83,7 @@ export function WithdrawModal(props: ReactModal.Props) {
             }
             `}
             style={{
-              background: 'linear-gradient(180deg, #00C6A2 0%, #008B72 100%)',
+              background: 'linear-gradient(180deg, #FFC800 0%, #008B72 100%)',
               borderRadius: '5px',
             }}
             onClick={() => {
@@ -231,7 +231,7 @@ export function Balances(props: {
             <button
               className={`flex flex-row w-full justify-center px-5 py-2 mt-6 text-white disabled:cursor-not-allowed mx-auto`}
               style={{
-                background: 'linear-gradient(180deg, #00C6A2 0%, #008B72 100%)',
+                background: 'linear-gradient(180deg, #FFC800 0%, #008B72 100%)',
                 borderRadius: '5px',
               }}
               onClick={() => setIsOpen(true)}

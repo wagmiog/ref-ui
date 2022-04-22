@@ -161,7 +161,7 @@ export function SwapRateDetail({
         onClick={switchSwapRate}
       >
         <span className="mr-2" style={{ marginTop: '0.1rem' }}>
-          <FaExchangeAlt color="#00C6A2" />
+          <FaExchangeAlt color="#FFC800" />
         </span>
         <span>{newValue}</span>
       </p>
@@ -190,7 +190,7 @@ export function SmartRoutesV2Detail({
   }, [identicalRoutes, pools]);
 
   return (
-    <section className="md:flex lg:flex py-1 text-xs items-center md:justify-between lg:justify-between">
+    <section  className="md:flex lg:flex py-1 text-xs items-center md:justify-between lg:justify-between">
       <div className="text-primaryText text-left self-start">
         <div className="inline-flex items-center">
           <RouterIcon />

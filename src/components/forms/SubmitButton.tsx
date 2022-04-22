@@ -44,7 +44,7 @@ function SubmitButton({
             disabled ? 'disabled:cursor-not-allowed opacity-40' : ''
           } ${loading ? 'opacity-40' : ''} ${className}`}
           style={{
-            background: 'linear-gradient(180deg, #00C6A2 0%, #008B72 100%)',
+            background: 'linear-gradient(180deg, #FFC800 0%, #008B72 100%)',
             borderRadius: '5px',
           }}
         >

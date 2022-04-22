@@ -1107,7 +1107,7 @@ export function VolumeChart({
   const [hoverIndex, setHoverIndex] = useState<number>(null);
 
   const baseColor = '#00967B';
-  const hoverColor = '#00c6a2';
+  const hoverColor = '#FFC800';
 
   const BackgroundRender = (targetBar: BarProps & { index?: number }) => {
     const { x, y, width, height, index } = targetBar;
@@ -1272,8 +1272,8 @@ export function TVLChart({
         >
           <defs>
             <linearGradient id="colorGradient" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="#00c6a2" stopOpacity={0.2} />
-              <stop offset="95%" stopColor="#00c6a2" stopOpacity={0} />
+              <stop offset="5%" stopColor="#FFC800" stopOpacity={0.2} />
+              <stop offset="95%" stopColor="#FFC800" stopOpacity={0} />
             </linearGradient>
           </defs>
           <XAxis
@@ -1292,7 +1292,7 @@ export function TVLChart({
           <Area
             dataKey="scaled_tvl"
             dot={false}
-            stroke="#00c6a2"
+            stroke="#FFC800"
             strokeWidth={3}
             fillOpacity={1}
             fill="url(#colorGradient)"

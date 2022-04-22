@@ -230,7 +230,7 @@ const SenderNotInstalledModal = (
           className="py-1.5 flex items-center justify-center mx-auto text-xs rounded-lg"
           style={{
             width: '242px',
-            background: 'linear-gradient(180deg, #00C6A2 0%, #008B72 100%)',
+            background: 'linear-gradient(180deg, #FFC800 0%, #008B72 100%)',
             height: '40px',
             marginBottom: '5px',
           }}
@@ -320,7 +320,7 @@ const ConnectingModal = (
           </span>
 
           <span className="mx-4">
-            <BeatLoader size={5} color="#00C6A2" />
+            <BeatLoader size={5} color="#FFC800" />
           </span>
 
           <span>{walletIcon}</span>

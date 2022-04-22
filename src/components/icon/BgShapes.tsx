@@ -63,8 +63,8 @@ export function BgShapeCenter() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(720 449.5) rotate(89.9873) scale(566.851 803.273)"
         >
-          <stop stopColor="#00C6A2" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop stopColor="#FFC800" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </radialGradient>
       </defs>
     </svg>
@@ -102,7 +102,7 @@ export function BgShapeCenterOld() {
             gradientTransform="translate(705 238.5) rotate(168.807) scale(718.669 444.207)"
           >
             <stop offset="0.444288" stopColor="#00463A" />
-            <stop offset="1" stopColor="#00C6A2" />
+            <stop offset="1" stopColor="#FFC800" />
           </radialGradient>
         </defs>
       </svg>

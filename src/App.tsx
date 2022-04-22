@@ -152,10 +152,10 @@ function App() {
   return (
     <WalletContext.Provider value={{ signedInState, signedInStatedispatch }}>
       <Router>
-        <div className="relative min-h-screen pb-24 overflow-x-hidden xs:flex xs:flex-col md:flex md:flex-col">
-          <BgShapeLeftTop />
+        <div style={{backgroundColor: "#1c1c1c"}} className="relative min-h-screen pb-24 overflow-x-hidden xs:flex xs:flex-col md:flex md:flex-col">
+          {/* <BgShapeLeftTop />
           <BgShapeCenter />
-          <BgShapeCenterSmall />
+          <BgShapeCenterSmall /> */}
           <NavigationBar />
           <ToastContainer
             style={{

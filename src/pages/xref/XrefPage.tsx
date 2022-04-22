@@ -390,7 +390,7 @@ function InputView(props: any) {
         }}
         className="lg:hidden mt-2.5 mb-6 w-full flex items-center justify-center text-sm text-white rounded-lg bg-black bg-opacity-20 py-1 px-3 xs:px-2 md:px-2 cursor-pointer"
       >
-        <FaExchangeAlt color="#00C6A2" className="mr-3"></FaExchangeAlt>{' '}
+        <FaExchangeAlt color="#FFC800" className="mr-3"></FaExchangeAlt>{' '}
         {rateDisplay(tab)}
       </div>
       <div className="relative flex items-center mb-8 xs:mb-5 md:mb-5 h-16">
@@ -402,7 +402,7 @@ function InputView(props: any) {
               }}
               className="xs:hidden md:hidden flex items-center justify-center text-sm text-white rounded-lg bg-black bg-opacity-20 py-1 px-3 xs:px-2 md:px-2 cursor-pointer"
             >
-              <FaExchangeAlt color="#00C6A2" className="mr-3"></FaExchangeAlt>{' '}
+              <FaExchangeAlt color="#FFC800" className="mr-3"></FaExchangeAlt>{' '}
               {rateDisplay(tab)}
             </div>
             <div className="flex items-center text-primaryText text-xs ">

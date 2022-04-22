@@ -55,6 +55,8 @@ import { ftGetTokensMetadata } from '../../services/ft-contract';
 import { useTokenBalances } from '../../state/token';
 import { toReadableNumber } from '../../utils/numbers';
 import { FarmDot } from '../icon/FarmStamp';
+import { ButtonPrimary } from '~PNGcomponents/Button';
+import { ButtonPrimary } from '../../PNGcomponents/Button'
 
 const config = getConfig();
 
@@ -105,8 +107,8 @@ function Anchor({
       }}
     >
       <h2
-        className={`link hover:text-greenColor text-lg font-bold p-4 cursor-pointer relative z-10 ${className} ${
-          isSelected ? 'text-greenColor' : 'text-gray-400'
+        className={`link text-lg font-bold p-4 cursor-pointer relative z-10 ${className} ${
+          isSelected ? 'text-primary' : 'text-gray-400'
         }`}
       >
         <FormattedMessage id={name} defaultMessage={name} />
@@ -214,7 +216,7 @@ function AccountEntry({
           } pl-3 pr-3`}
         >
           <div className="pr-1">
-            <Near color={isSignedIn ? 'white' : '#00c6a2'} />
+            <Near color={isSignedIn ? 'white' : '#FFC800'} />
           </div>
           <div className="overflow-ellipsis overflow-hidden whitespace-nowrap account-name">
             {isSignedIn ? (
@@ -237,14 +239,26 @@ function AccountEntry({
                   setHover(false);
                 }}
                 type="button"
+                style={{color: '#FFC800'}}
               >
-                <span className="ml-1 text-xs">
+                {/* <span className="ml-1 text-xs">
                   <FormattedMessage
                     id="connect_to_near"
                     defaultMessage="Connect to NEAR"
                   />
-                </span>
+                </span> */}
+                Connect wallet
               </button>
+              // <ButtonPrimary
+              //   onClick={(e) => {
+              //   e.preventDefault();
+              //   e.stopPropagation();
+              //   setShowWalletSelector(true);
+
+              //   setHover(false);
+              // }}>
+              //   Connect wallet
+              // </ButtonPrimary>
             )}
           </div>
         </div>
@@ -767,7 +781,7 @@ function NavigationBar() {
         </div>
         <nav className="flex items-center justify-between px-9 pt-6 col-span-8">
           <div className="relative -top-0.5 flex-1">
-            <Logo />
+            {/* <Logo /> */}
           </div>
           <div className="flex items-center">
             <Anchor to="/" pattern="/" name="Swap" />

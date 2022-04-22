@@ -7,7 +7,7 @@ export function SmallWallet({
   light?: boolean;
   forSelectToken?: boolean;
 }) {
-  const color = light ? '#00C6A2' : '#7E8A93';
+  const color = light ? '#FFC800' : '#7E8A93';
 
   return (
     <svg

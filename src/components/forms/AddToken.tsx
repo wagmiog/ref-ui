@@ -72,7 +72,7 @@ export default function AddToken() {
                 className="flex h-8 flex-row justify-center px-4 mx-auto items-center rounded-lg text-buttonText shadow-lg transition-colors focus:outline-none disabled:cursor-not-allowed"
                 style={{
                   background:
-                    'linear-gradient(180deg, #00C6A2 0%, #008B72 100%)',
+                    'linear-gradient(180deg, #FFC800 0%, #008B72 100%)',
                 }}
               >
                 <FormattedMessage id="add_token" defaultMessage="Add Token" />

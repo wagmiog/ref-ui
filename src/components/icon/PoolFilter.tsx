@@ -54,7 +54,7 @@ const LightFilterIcon = () => {
         y1="1"
         x2="13"
         y2="1"
-        stroke="#00C6A2"
+        stroke="#FFC800"
         strokeWidth="2"
         strokeLinecap="round"
       />
@@ -63,7 +63,7 @@ const LightFilterIcon = () => {
         y1="5"
         x2="11"
         y2="5"
-        stroke="#00C6A2"
+        stroke="#FFC800"
         strokeWidth="2"
         strokeLinecap="round"
       />
@@ -72,7 +72,7 @@ const LightFilterIcon = () => {
         y1="9"
         x2="9"
         y2="9"
-        stroke="#00C6A2"
+        stroke="#FFC800"
         strokeWidth="2"
         strokeLinecap="round"
       />

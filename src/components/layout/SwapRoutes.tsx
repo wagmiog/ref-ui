@@ -30,7 +30,7 @@ export const RouterIcon = () => {
           y2="11.2"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#00C6A2" />
+          <stop stopColor="#FFC800" />
           <stop offset="1" stopColor="#8C78FF" />
         </linearGradient>
       </defs>

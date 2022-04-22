@@ -34,7 +34,7 @@ export function FooterLogo() {
         <path d="M31.1001 37.4428H37.443L31.1001 31.1V37.4428Z" fill="white" />
         <path
           d="M37.4429 20L33.7429 20L37.4429 23.7L37.4429 20Z"
-          fill="#00C6A2"
+          fill="#FFC800"
         />
         <path
           fillRule="evenodd"
@@ -115,7 +115,7 @@ export function FooterLogo() {
             y2="84.9892"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#00C6A2" stopOpacity="0.83" />
+            <stop stopColor="#FFC800" stopOpacity="0.83" />
             <stop offset="0.588542" stopColor="#73818B" stopOpacity="0.56" />
             <stop offset="1" stopColor="#00BA98" stopOpacity="0.28" />
           </linearGradient>

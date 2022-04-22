@@ -436,7 +436,7 @@ export function MobileNavBar(props: any) {
     >
       {showTip ? <AccountTipDownByAccountID show={showTip} /> : null}
       <div className="flex items-center text-2xl text-white justify-between p-4">
-        <NavLogo />
+        {/* <NavLogo /> */}
         <div className="flex">
           <div
             className={`inline-flex px-1 mr-2 items-center justify-center rounded-full border border-gray-700 hover:border-gradientFrom hover:bg-opacity-0 ${
@@ -446,7 +446,7 @@ export function MobileNavBar(props: any) {
             } pl-3 pr-3`}
           >
             <div className="pr-1">
-              <Near color={isSignedIn ? 'white' : '#00c6a2'} />
+              <Near color={isSignedIn ? 'white' : '#FFC800'} />
             </div>
             <div className="overflow-ellipsis overflow-hidden text-xs whitespace-nowrap account-name">
               {isSignedIn ? (
@@ -505,7 +505,7 @@ export function MobileNavBar(props: any) {
           className="block h-full overflow-y-scroll w-4/6 float-right bg-cardBg shadow-4xl"
         >
           <div className="p-4 flex text-white items-center justify-start">
-            <NavLogoLarge />
+            {/* <NavLogoLarge /> */}
             <span className="inline-block ml-2 mt-1 text-white">
               ${data && data !== '-' ? toPrecision(data, 2) : '-'}
             </span>

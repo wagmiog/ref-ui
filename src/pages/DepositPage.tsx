@@ -50,7 +50,7 @@ function DepositBtn(props: {
         style={
           canSubmit
             ? {
-                background: 'linear-gradient(180deg, #00C6A2 0%, #008B72 100%)',
+                background: 'linear-gradient(180deg, #FFC800 0%, #008B72 100%)',
                 borderRadius: '5px',
               }
             : {

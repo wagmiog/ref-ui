@@ -49,19 +49,19 @@ const XrefLogo = (props: any) => {
         />
         <path
           d="M53.54 33.6089C53.54 31.7512 54.57 30.0466 56.2146 29.1826L88.4988 12.2217C89.9547 11.4568 91.6937 11.4568 93.1497 12.2217L125.434 29.1826C127.078 30.0466 128.108 31.7512 128.108 33.6089V75.3924C128.108 77.3641 126.95 79.1518 125.15 79.9567L92.8655 94.3946C91.5666 94.9754 90.0818 94.9754 88.783 94.3946L56.4988 79.9567C54.6988 79.1518 53.54 77.3641 53.54 75.3924L53.54 33.6089Z"
-          stroke="#00C6A2"
+          stroke="#FFC800"
           strokeWidth="2"
           shapeRendering="crispEdges"
         />
       </g>
       <path
         d="M70.269 38.3121L90.8244 29.3662L90.7865 52.7365L79.5688 43.0869L68.3132 53.2844V41.185C68.3156 39.9512 69.0766 38.831 70.269 38.3121Z"
-        fill="#00C6A2"
+        fill="#FFC800"
         fillOpacity="0.35"
       />
       <path
         d="M70.8406 70.0057L90.8244 75.7955L90.7865 58.463L79.5677 49.0635L68.3132 58.9966V66.8451C68.3132 68.292 69.3351 69.5697 70.8406 70.0057Z"
-        fill="#00C6A2"
+        fill="#FFC800"
         fillOpacity="0.35"
       />
       <path
@@ -260,8 +260,8 @@ const XrefLogo = (props: any) => {
           y2="56.7265"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#00C6A2" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop stopColor="#FFC800" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_11084_850"
@@ -271,8 +271,8 @@ const XrefLogo = (props: any) => {
           y2="55.5876"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#00C6A2" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop stopColor="#FFC800" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_11084_850"
@@ -282,8 +282,8 @@ const XrefLogo = (props: any) => {
           y2="55.5876"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#00C6A2" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop stopColor="#FFC800" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_11084_850"
@@ -293,8 +293,8 @@ const XrefLogo = (props: any) => {
           y2="56.7265"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#00C6A2" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop stopColor="#FFC800" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_11084_850"
@@ -331,18 +331,18 @@ const XrefSymbol = (props: any) => {
         />
         <path
           d="M5 14.5488C5 13.0626 5.82399 11.6989 7.13966 11.0077L18.6181 4.97737C19.7828 4.36546 21.174 4.36546 22.3388 4.97737L33.8172 11.0077C35.1329 11.6989 35.9569 13.0626 35.9569 14.5488V29.4849C35.9569 31.0624 35.0298 32.4925 33.5898 33.1364L22.1114 38.2697C21.0723 38.7344 19.8845 38.7344 18.8454 38.2697L7.36702 33.1364C5.92704 32.4925 5 31.0624 5 29.4849L5 14.5488Z"
-          stroke="#00C6A2"
+          stroke="#FFC800"
           shapeRendering="crispEdges"
         />
       </g>
       <path
         d="M11.945 15.3389L20.4785 11.625L20.4628 21.3271L15.8058 17.3211L11.1331 21.5546V16.5315C11.134 16.0193 11.45 15.5543 11.945 15.3389Z"
-        fill="#00C6A2"
+        fill="#FFC800"
         fillOpacity="0.35"
       />
       <path
         d="M12.1823 28.4959L20.4785 30.8995L20.4628 23.7039L15.8053 19.8018L11.1331 23.9255V27.1837C11.1331 27.7844 11.5573 28.3149 12.1823 28.4959Z"
-        fill="#00C6A2"
+        fill="#FFC800"
         fillOpacity="0.35"
       />
       <path
@@ -470,8 +470,8 @@ const XrefIconWhole = (props: any) => {
           y2="7.31799"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#00C6A2" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop stopColor="#FFC800" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_12486_2872"
@@ -481,8 +481,8 @@ const XrefIconWhole = (props: any) => {
           y2="7.31799"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#00C6A2" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop stopColor="#FFC800" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
@@ -585,8 +585,8 @@ const PopupBox1Mobile = (props: any) => {
           y2="97"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#00C6A2" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop stopColor="#FFC800" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
@@ -659,8 +659,8 @@ const PopupBox1 = (props: any) => {
           y2="97"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#00C6A2" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop stopColor="#FFC800" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
@@ -745,7 +745,7 @@ const PopupBox2 = (props: any) => {
           y2="19.9285"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#00C6A2" />
+          <stop stopColor="#FFC800" />
           <stop offset="1" stopColor="#001320" />
         </linearGradient>
         <linearGradient
@@ -768,7 +768,7 @@ const PopupBox2 = (props: any) => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#00FFF0" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_12486_2608"
@@ -790,7 +790,7 @@ const PopupBox2 = (props: any) => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#00FFF0" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
@@ -909,7 +909,7 @@ const PopupBox3 = (props: any) => {
           y2="17.0334"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#00C6A2" />
+          <stop stopColor="#FFC800" />
           <stop offset="1" stopColor="#001320" />
         </linearGradient>
         <linearGradient
@@ -921,7 +921,7 @@ const PopupBox3 = (props: any) => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_12531_3193"
@@ -931,7 +931,7 @@ const PopupBox3 = (props: any) => {
           y2="41.6396"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.432518" stopColor="#00C6A2" stopOpacity="0" />
+          <stop offset="0.432518" stopColor="#FFC800" stopOpacity="0" />
           <stop offset="0.977808" stopColor="#00FFD1" />
         </linearGradient>
         <linearGradient
@@ -943,7 +943,7 @@ const PopupBox3 = (props: any) => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#001320" />
-          <stop offset="1" stopColor="#00C6A2" />
+          <stop offset="1" stopColor="#FFC800" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_12531_3193"
@@ -954,7 +954,7 @@ const PopupBox3 = (props: any) => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#00FFF0" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_12531_3193"
@@ -965,7 +965,7 @@ const PopupBox3 = (props: any) => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#001320" />
-          <stop offset="1" stopColor="#00C6A2" />
+          <stop offset="1" stopColor="#FFC800" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_12531_3193"
@@ -976,7 +976,7 @@ const PopupBox3 = (props: any) => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#00FFF0" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
@@ -1012,17 +1012,17 @@ const PopupBox4 = (props: any) => {
         <path
           d="M9.68726 29.6929C9.68726 27.8351 10.7172 26.1305 12.3618 25.2665L37.3332 12.1475C38.7892 11.3826 40.5281 11.3826 41.9841 12.1475L66.9555 25.2665C68.6001 26.1305 69.63 27.8351 69.63 29.6929V62.0527C69.63 64.0245 68.4712 65.8121 66.6713 66.6171L41.6999 77.7846C40.401 78.3654 38.9163 78.3654 37.6174 77.7846L12.646 66.6171C10.8461 65.8121 9.68726 64.0245 9.68726 62.0527L9.68726 29.6929Z"
           fill="url(#paint0_linear_12531_3197)"
-          stroke="#00C6A2"
+          stroke="#FFC800"
           strokeWidth="2"
         />
         <path
           d="M23.1349 32.8808L39.6587 25.6895L39.6282 44.476L30.6107 36.719L21.5627 44.9164V35.1901C21.5646 34.1984 22.1764 33.2979 23.1349 32.8808Z"
-          fill="#00C6A2"
+          fill="#FFC800"
           fillOpacity="0.35"
         />
         <path
           d="M23.5944 58.3572L39.6587 63.0114L39.6282 49.0784L30.6098 41.5225L21.5627 49.5074V55.8164C21.5627 56.9796 22.3842 58.0067 23.5944 58.3572Z"
-          fill="#00C6A2"
+          fill="#FFC800"
           fillOpacity="0.35"
         />
         <path
@@ -1173,8 +1173,8 @@ const PopupText = (props: any) => {
           y2="23.318"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#00C6A2" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop stopColor="#FFC800" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_12486_2602"
@@ -1184,8 +1184,8 @@ const PopupText = (props: any) => {
           y2="23.318"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#00C6A2" />
-          <stop offset="1" stopColor="#00C6A2" stopOpacity="0" />
+          <stop stopColor="#FFC800" />
+          <stop offset="1" stopColor="#FFC800" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
