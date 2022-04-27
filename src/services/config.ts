@@ -101,30 +101,30 @@ export default function getConfig(env: string = process.env.NEAR_ENV) {
           sodakiApiUrl: '',
           blackList: process.env.FARM_BLACK_LIST || ['135#0'],
           REF_FI_CONTRACT_ID:
-            process.env.REF_FI_CONTRACT_ID || 'dev-1650691434728-32217603913660', //general contract
+            process.env.REF_FI_CONTRACT_ID || 'dev-1650966882894-35018349646207', //general contract
           WRAP_NEAR_CONTRACT_ID:
             process.env.WRAP_NEAR_CONTRACT_ID || 'wrap.testnet',
           REF_ADBOARD_CONTRACT_ID: 'ref-adboard.near',
           REF_FARM_CONTRACT_ID:
-            process.env.REF_FARM_CONTRACT_ID || 'dev-1650691456707-92172813870221', //farm
-          REF_TOKEN_ID: 'dev-1650691486104-78445919208919', // ref token
-          XREF_TOKEN_ID: 'dev-1650691499105-31893174378744', // ref token
+            process.env.REF_FARM_CONTRACT_ID || 'dev-1650966900941-97217298551664', //farm
+          REF_TOKEN_ID: 'dev-1650966914129-56221028891622', // ref token
+          XREF_TOKEN_ID: 'dev-1651038298465-10173938691391', // ref token
           REF_AIRDROP_CONTRACT_ID: 'locker002.ref-dev.testnet',
           TOP_POOLS_TOKEN_REFRESH_INTERVAL:
             process.env.POOL_TOKEN_REFRESH_INTERVAL || 60,
           POOL_TOKEN_REFRESH_INTERVAL:
             process.env.POOL_TOKEN_REFRESH_INTERVAL || 20,
-          STABLE_POOL_ID: process.env.STABLE_POOL_ID || 2,
-          POOLS_BLACK_LIST: process.env.POOLS_BLACK_LIST || [3],
+          STABLE_POOL_ID: process.env.STABLE_POOL_ID || 3,
+          POOLS_BLACK_LIST: process.env.POOLS_BLACK_LIST || [0],
           STABLE_TOKEN_IDS: [
-            'usdt.fakes.testnet',
-            'usdc.fakes.testnet',
-            'dai.fakes.testnet',
+            'dev-1650954469424-66287698100259',
+            'dev-1650954487434-33761151294954',
+            'dev-1650954499525-96253036746817',
           ],
           STABLE_TOKEN_INDEX: {
-            'usdt.fakes.testnet': 0,
-            'usdc.fakes.testnet': 1,
-            'dai.fakes.testnet': 2,
+            'dev-1650954469424-66287698100259': 0,
+            'dev-1650954487434-33761151294954': 1,
+            'dev-1650954499525-96253036746817': 2,
           },
           TOTAL_PLATFORM_FEE_REVENUE:
             process.env.TOTAL_PLATFORM_FEE_REVENUE || '242,633.0475',
