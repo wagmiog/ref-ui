@@ -18,7 +18,7 @@ import { StableSwapLogo } from '~components/icon/StableSwap';
 import { useWalletTokenBalances } from '../../state/token';
 import { useLocation } from 'react-router-dom';
 const DEFAULT_ACTIONS = ['stable_swap', 'add_liquidity', 'remove_liquidity'];
-const STABLE_TOKENS = ['USDT', 'USDC', 'DAI'];
+const STABLE_TOKENS = ['FUSDC', 'FUSDT', 'FDAI'];
 const STABLE_POOL_ID = getConfig().STABLE_POOL_ID;
 export const REF_STABLE_SWAP_TAB_KEY = 'REF_STABLE_SWAP_TAB_VALUE';
 
